@@ -316,14 +316,12 @@ button { cursor: pointer; border: none; outline: none; }
 .gallery-grid {
   max-width: 1200px; margin: 0 auto;
   display: grid; grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 220px);
+  grid-template-rows: repeat(2, 180px);
   gap: 16px;
 }
 .gallery-item { border-radius: var(--radius); overflow: hidden; cursor: pointer; }
 .gallery-item img { width: 100%; height: 100%; transition: transform 0.5s ease; object-fit: cover; object-position: center; }
 .gallery-item:hover img { transform: scale(1.08); }
-.gallery-item:nth-child(1) { grid-column: span 2; }
-.gallery-item:nth-child(4) { grid-column: span 2; }
 
 /* ── CTA ── */
 .cta-section { position: relative; padding: 120px 24px; text-align: center; overflow: hidden; }
