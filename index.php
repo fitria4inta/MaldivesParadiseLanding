@@ -310,7 +310,7 @@ function formatPrice(float $price): string {
 <!-- ── CTA ────────────────────────────────────────────────── -->
 <section class="cta-section">
     <div class="cta-bg">
-        <img src="https://images.unsplash.com/photo-1540202404-a2f29cf7eca7?w=1600&q=80" alt="Maldives Sunset">
+        <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1600&q=80" alt="Maldives Sunset">
         <div class="cta-overlay"></div>
     </div>
     <div class="cta-content">
