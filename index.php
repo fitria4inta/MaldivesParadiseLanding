@@ -1,4 +1,6 @@
  <?php
+ ob_start();
+ 
 /**
  * ============================================================
  *  INDEX.PHP — Entry Point Utama (MVC Version)
