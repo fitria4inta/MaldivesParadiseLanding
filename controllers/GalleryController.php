@@ -9,7 +9,6 @@ class GalleryController {
     private GalleryModel $model;
 
     public function __construct() {
-        ob_start();
         $this->model = new GalleryModel();
     }
 
